@@ -4,8 +4,6 @@ import User from "../Model/userModel.js";
 
 const router = express.Router();
 
-
-
 router.post('/create', async(req, res) =>{
     const {name, email, password} = req.body
     try{
